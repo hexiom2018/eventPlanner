@@ -1,0 +1,34 @@
+.main-div {
+    display: flex;
+    border: 2px solid red;
+    background-color: aqua;
+    height: 100%;
+    flex-direction: column
+}
+.first-div-after-main{
+    display: flex;
+    border: 2px solid rgb(0, 110, 0);
+    background-color: rgb(255, 187, 0);
+    height: 100%;
+    flex-direction: row
+}
+.second-div-after-main{
+    display: flex;
+    border: 2px solid rgb(110, 0, 9);
+    background-color: rgb(29, 0, 110);
+    height: 100%;
+    flex-direction: column
+}
+.picture-dic{
+display: flex;
+align-items: center;
+}
+.tittle-div{
+
+}
+.price-div{
+    
+}
+.cattle-image{
+    height: 50%;
+}
