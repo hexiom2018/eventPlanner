@@ -116,6 +116,7 @@ align-items: center;
 .button > button{
     padding: 10px 20px;
     color: white;
+    cursor: pointer;
     background-color: orange;
     border-radius: 10px;
     border: none;

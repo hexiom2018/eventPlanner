@@ -128,9 +128,9 @@ class FirstScreen extends Component {
                     </div>
                 </div>
                 <div className={'button'}>
-                    <button>
+                    <button onClick={() => console.log('button clicked')}>
                         Confirm
-                            </button>
+                    </button>
                 </div>
             </div>
         )
