@@ -73,15 +73,15 @@ class FirstScreen extends Component {
                         {items.name}
                     </div>
                     <div style={{ padding: '10px' }} className={'quantity'}>
-                        <div style={items.quantity === 1 ? { backgroundColor: 'lightgrey', color: 'white' } : null} onClick={() => this.subtract(items, index)}>
+                        <button style={items.quantity === 1 ? { backgroundColor: 'lightgrey', color: 'white', border: 'none', width: '25px' } : { border: 'none', width: '25px', backgroundColor: 'white', border: '1px solid lightgrey' }} onClick={() => this.subtract(items, index)}>
                             {'-'}
-                        </div>
+                        </button>
                         <div>
                             {items.quantity}
                         </div>
-                        <div onClick={() => this.add(items, index)}>
+                        <button style={{ border: 'none', width: '25px', backgroundColor: 'white', border: '1px solid lightgrey' }} onClick={() => this.add(items, index)}>
                             {'+'}
-                        </div>
+                        </button>
                     </div>
                 </div>
                 <div>
